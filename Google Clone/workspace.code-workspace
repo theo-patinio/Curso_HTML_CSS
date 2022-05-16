@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\..\\..\\..\\xampp\\htdocs\\Curso_PHP"
+		},
+		{
+			"path": "..\\.."
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\..\\xampp\\htdocs\\Introduccion a PHP"
+		},
+		{
+			"path": "..\\..\\..\\Olivia_estudia_programacion"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Curso Programacion",
+		"python.pythonPath": "C:\\Users\\Familia\\AppData\\Local\\Programs\\Python\\Python38-32\\python.exe"
+	}
+}
