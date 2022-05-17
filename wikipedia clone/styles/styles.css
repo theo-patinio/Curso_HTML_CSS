@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    margin-top: 50;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body .logo_texto img{
+    display: block;
+    justify-content: center;
+    width: 180px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+body .logo_texto {
+    display: block;
+    justify-content: center;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
