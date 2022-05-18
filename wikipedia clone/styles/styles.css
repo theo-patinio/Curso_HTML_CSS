@@ -4,7 +4,6 @@ body {
     padding: 0;
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
-    
 }
 
 body .logo_texto img{
@@ -14,16 +13,28 @@ body .logo_texto img{
     margin: 0 auto;
     margin-top: 60px;
     margin-bottom: 10px;
-    text-align: center;
 }
+
 body .logo_texto {
-    display: block;
-    justify-content: center;
     width: 500px;
     margin: 0 auto;
     text-align: center;
     font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body .planet_and_languages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fondo {
+    width: auto;
+    height: 350px;
+    background-image: url(iso.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: center;
 }
 
 
