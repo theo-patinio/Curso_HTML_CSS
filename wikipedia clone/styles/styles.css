@@ -4,6 +4,8 @@ body {
     padding: 0;
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
 }
 
 body .logo_texto img{
@@ -23,11 +25,27 @@ body .logo_texto {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-body .planet_and_languages {
-    display: flex;
-    justify-content: center;
+
+body .planet_and_languages img{
+    width: 180px;
     align-items: center;
+    vertical-align: middle;
+    padding: 20px;
+    float: middle;
 }
+.es {
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+/*
 #fondo {
     width: auto;
     height: 350px;
@@ -36,7 +54,17 @@ body .planet_and_languages {
     background-size: 200px;
     background-position: center;
 }
+#text{
+    display: flexbox;
+    text-align: center;
+}
+body .es {
 
+    vertical-align: bottom ;
+    font-size: 24px;
+
+}
+*/
 
 
 
