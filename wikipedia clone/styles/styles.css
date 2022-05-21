@@ -43,88 +43,114 @@ main .planet_and_languages__left{
     height: 400px;
     width: 150px;
     display: flexbox;
+    padding-top: 15px;
 }
 main .planet_and_languages__right{
+    height: 300px;
     width: 150px;
     display: flexbox;
+    padding-top: 0;
 }
 
 main .planeta{
     width: 260px;
     height: 400px;
-    
 }
 
 a {
     text-decoration: none;
-    color: blue;
+    color: rgb(67, 67, 193);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    line-height: 10px;
 }
 
 main .planet_and_languages img{
     width: 200px;
     height: 200px;
     margin-top: 65px;
-
 }
 
 .articulos{
     font-size: 13px;
     position: relative;
     z-index: 1;
-
+    color: rgb(77, 70, 70);
 }
+
+/*LADO IZQUIERDO*/
 
 main .es {
     cursor: pointer;
     width: 150px;
     height: 60px;
-    font-size: 15px;
     text-align: center;
     margin-left: 50px;
     margin-bottom: 10px;
-    line-height: 10px;
-    
-
 }
 main .gal {
-    /*background-color: rgb(186, 173, 173);*/
     cursor: pointer;
     width: 150px;
     height: 60px;
-    font-size: 15px;
     margin-bottom: 10px;
-    line-height: 10px;
-
-
 }
 main .py {
     width: 110px;
     height: 60px;
-    font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 10px;
-    line-height: 10px;
 }
 main .fr {
-    /*background-color: rgb(186, 173, 173);*/
     cursor: pointer;
     width: 150px;
     height: 60px;
-    font-size: 15px;
     margin-bottom: 10px;
-    line-height: 10px;
 }
 main .中文 {
-    /*background-color: rgb(186, 173, 173);*/
     cursor: pointer;
     width: 150px;
     height: 60px;
-    font-size: 15px;
     text-align: center;
     margin-left: 50px;
     margin-bottom: 10px;
-    line-height: 10px;
+}
+
+/*LADO DERECHO*/
+
+main .en {
+    cursor: pointer;
+    width: 150px;
+    height: 60px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+main .jp {
+    cursor: pointer;
+    width: 150px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+main .dw {
+    width: 150px;
+    height: 60px;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+
+}
+main .it {
+    cursor: pointer;
+    width: 150px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+main .pg {
+    cursor: pointer;
+    width: 150px;
+    height: 60px;
+    margin-right: 50px;
+    text-align: left;
+    margin-bottom: 10px;
 }
 
 
@@ -135,29 +161,6 @@ main .中文 {
 
 
 
-
-
-
-/*
-#fondo {
-    width: auto;
-    height: 350px;
-    background-image: url(iso.jpg);
-    background-repeat: no-repeat;
-    background-size: 200px;
-    background-position: center;
-}
-#text{
-    display: flexbox;
-    text-align: center;
-}
-body .es {
-
-    vertical-align: bottom ;
-    font-size: 24px;
-
-}
-*/
 
 
 
