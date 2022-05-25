@@ -102,31 +102,58 @@ a {
 
 .contenedor-search{
     display: inline-flex;
+    text-align: center;
     align-items: center;
     height: 50px;
     width: 450px;
     border: 1px solid gray;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 .input{
-    height: 40px;
+    height: 48px;
     width: 350px;
     font-size: 18px;
     padding: 6px;
     border: 1px;
+    margin-top: 10px;
 }
 .search-language{
     width: 38px;
     writing-mode: horizontal-tb;
-    height: 40px;
+    height: 48px;
+    margin-bottom: 12px;
     }
 .button-search{
-    background-color: aquamarine;
-    height: 40px;
+    background-image: url("lupa.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+
 
 }
+.separador-desplegable{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
 
-
+.leer{
+    width: 300px;
+    height: 35px;
+    border: 1px solid #DFD7D4;
+    text-align: center;
+    color: rgb(67, 67, 193);
+    padding-top: 5px;
+    border: 3px solid rgb(67, 67, 193);
+    font-size: 16px;
+    cursor: pointer;
+}
 
 
 
