@@ -103,10 +103,30 @@ a {
 .contenedor-search{
     display: inline-flex;
     align-items: center;
+    height: 50px;
+    width: 450px;
+    border: 1px solid gray;
+    margin-top: 10px;
+}
+.input{
+    height: 40px;
+    width: 350px;
+    font-size: 18px;
+    padding: 6px;
+    border: 1px;
 }
 .search-language{
     width: 38px;
+    writing-mode: horizontal-tb;
+    height: 40px;
+    }
+.button-search{
+    background-color: aquamarine;
+    height: 40px;
+
 }
+
+
 
 
 
