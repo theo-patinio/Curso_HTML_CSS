@@ -117,7 +117,7 @@ a {
     border: 3px solid rgb(173, 70, 30);
 }
 .input{
-    height:unset;
+    height:100%;
     font-size: 18px;
     flex-grow: 1;
     border: 0 none;
