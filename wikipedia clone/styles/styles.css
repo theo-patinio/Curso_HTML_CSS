@@ -10,7 +10,6 @@ main {
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-
 }
 
 main .logo_texto img{
@@ -100,42 +99,40 @@ a {
     grid-column: 13/18;
 }
 
-.contenedor-search{
+.contenedor-search {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .search{
     display: flex;
-    border: 1px solid gray;
+    border: 3px solid rgb(73, 54, 197);
     width: 500px;
     height: 50px;
-
-
-}
-.search:checked {
-    border: 3px solid rgb(173, 70, 30);
+    padding: 0;
+    margin: 0;
 }
 .input{
     height:100%;
     font-size: 18px;
     flex-grow: 1;
-    border: 0 none;
+    border: 0 ;
     padding-left: 10px;
-}
-.input:focus{
 }
 .search-language{
     width: 50px;
-    border: none;
+    border: 0;
 
     }
 .button-search{
-width: 50px;
-border: none;
-background-color: blanchedalmond;
-
-}
+    box-sizing: border-box;
+    width: 50px;
+    height: 100%;
+    background-color:rgb(73, 54, 197);
+    color: rgb(224, 221, 234);
+    cursor: pointer;
+    border: 0;
+    }
 .separador-desplegable{
     display: flex;
     text-align: center;
@@ -156,8 +153,6 @@ background-color: blanchedalmond;
     font-size: 16px;
     cursor: pointer;
 }
-
-
 
 
 
