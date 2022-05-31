@@ -190,8 +190,8 @@ a {
     display: block;
     text-align: left;
     width: 40vw;
-    background-color: aqua;
     height: 400px;
+    font-size: 14px;
     }
 .info-left-1{
     padding: 40px;
@@ -227,7 +227,7 @@ a {
     width: 100%;
 }
 .p1 a:hover{
-    background-color: antiquewhite;
+    background-color: rgb(240, 233, 238);
 }
 .icon-div{
     margin: 10px;
