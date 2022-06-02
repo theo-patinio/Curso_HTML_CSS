@@ -56,7 +56,7 @@ main .logo_texto {
 }
 
 .planet_and_languages a:hover{
-    background-color: rgb(240, 233, 238);
+    background-color: #e8ecf1;
 }
 
 a {
@@ -170,6 +170,11 @@ a {
     border-right: 15px solid white;
 
 }
+.separador-desplegable:focus-within{
+    border: 2px solid #36c;
+
+}
+
 .line{
     background-color: rgb(168, 168, 168);
     height: 1px;
@@ -188,44 +193,52 @@ a {
 }
 
 /*DESPLEGABLE*/
-.desplegable {
-    display: block;
-}
 
 .desplegable__titulo{
-    font-size: 15px;
+    font-size: 12px;
     position: relative;
-    border: 10px solid rgb(250, 246, 240);
-    background-color: rgb(250, 246, 240);;
+    border: 10px solid #f8f9fa;
+    background-color: #f8f9fa;;
     width: 200px;
     margin: auto;
+    color: rgb(93, 93, 93);
+    font-weight: 400;
 }
-.desplegable__line{
+
+
+ .desplegable__line{
     background-color: rgb(168, 168, 168);
     height: 1px;
-    width: 870px;
+    width: 79%;
     position:absolute;
     margin-top: 20px;
-
-
 }
-.desplegable__contenedor{
-    display: block;
+ 
+ .desplegable__contenedor {
+    display: none;
     margin: auto;
     width: 80%;
     margin-top: -40px;
     padding-top: 40px;
-    background-color: rgb(250, 246, 240);
+    background-color: #f8f9fa;
 }
-.desplegable__item{
+
+ .desplegable__item{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     list-style: none;
-    height: 150px;
+    height: auto ;
+    row-gap: 15px;
 }
 .desplegable__item a{
     font-size:13px;
 }
+.desplegable__item a:hover{
+    font-size:13px;
+    text-decoration: underline;
+
+}
+
 
 /*EXPLORADOR DE ABAJO*/
 
