@@ -160,16 +160,18 @@ a {
     align-items: center;
     justify-content: center;
     margin-top: 50px;
-    margin-bottom: 40px;   
+    margin-bottom: 40px;  
+ 
     
 }
 .separador-desplegable{
     text-align: center;
     position: absolute;
-    border-left: 15px solid white;
-    border-right: 15px solid white;
-
+    border-left: 20px solid white;
+    border-right: 20px solid white;
+    
 }
+
 .separador-desplegable:focus-within{
     border: 2px solid #36c;
 
@@ -178,8 +180,9 @@ a {
 .line{
     background-color: rgb(168, 168, 168);
     height: 1px;
-    width: 80%;
+    width: 45%;
     position: relative;
+    transition: all 0.5s;
 }
 .button{
     width: 300px;
