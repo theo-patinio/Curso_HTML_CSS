@@ -266,6 +266,7 @@ a {
     padding-bottom: 60px;
 
 
+
 }
 .info-left-2{
     width: auto;
@@ -336,12 +337,14 @@ a {
 
 /*FOOTER*/
 
-footer{
-    display: inline-flex;
-    width: 100vw;
-    font-size: 30px;
-    align-items: center;
-    background-color: #36c;
+.footer{
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+
+}
+.footer li{
+    display: inline-block;
 }
 
 
