@@ -258,7 +258,7 @@ a {
     font-size: 14px;
     padding-left: 50px;
     }
-.info-left-1{
+.info-left .info-left-1{
     width: 100%;
     height: auto;
     background-color: aqua;
@@ -268,7 +268,7 @@ a {
 
 
 }
-.info-left-2{
+.info-left .info-left-2{
     width: auto;
     height: auto;
     background-color: coral;
