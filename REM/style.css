@@ -17,6 +17,8 @@ nav{
     font-size: 1.2rem;
 }
 nav li{
+    background-color: aqua ;
+    height: 5rem;
     margin: 3rem;
     padding: 1rem;
 }
